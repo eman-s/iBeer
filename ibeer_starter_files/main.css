@@ -83,7 +83,7 @@ background-image: url("img/header-img.jpg");
 #main-navigation{
     background: #444;
     justify-content: space-between;
-display: flex;
+display:flex;
     /*
         TODO:
         - Use Flexbox to arrange the navigation links
@@ -190,10 +190,15 @@ article footer p{
     */
 }
 #site-footer{
-
+color:white;
     background: #333;
+    display: flex;
+    justify-content: center;
     /*
         TODO:
         - Style the site footer
     */
+}
+aside img {
+  width: 200px;
 }
