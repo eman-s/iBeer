@@ -111,6 +111,7 @@ img {
 
 #main-navigation #logo {
   margin-right: 400px;
+
   /*
         TODO:
         - Flexbox - The logo needs to take up more space
@@ -125,6 +126,8 @@ main {
   display: flex;
   flex-direction: column;
   flex-basis: 500px;
+  margin-top: -40px;
+  margin-bottom: 40px;
   /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -139,6 +142,8 @@ aside {
   display: flex;
   flex-direction: column;
   flex-basis: 200px;
+  margin-top: -40px;
+  margin-bottom: 40px;
   /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -195,6 +200,17 @@ article img {
 }
 
 article footer p {
+display: flex;
+border-style: solid;
+border-width: thin;
+border-bottom: none;
+border-left: none;
+border-right: none;
+font-family: 'noto serif';
+color: #666;
+font-size: small;
+justify-content: center;
+
   /*
         TODO:
         - Style the article footer
