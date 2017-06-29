@@ -200,6 +200,7 @@ article img {
 
 article footer p {
   display: flex;
+  border-color: #ccc;
   border-style: solid;
   border-width: thin;
   border-bottom: none;
